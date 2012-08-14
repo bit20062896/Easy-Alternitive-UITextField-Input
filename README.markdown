@@ -44,6 +44,8 @@ Templates:
 
 ![screenshot](http://github.com/Marxon13/Easy-Alternitive-UITextField-Input/blob/master/KeyboardWithToolbar.png?raw=true "Keyboard")
 
+* I will continue to add templates as I make them, or send your own template to me and I'll include it!
+
 Usage
 -----
 * First import everything in the classes folder into your project. Then #import ATFIPresentationViewController.h and any .h files for the pickers you want to use into your UIViewController subclass.
