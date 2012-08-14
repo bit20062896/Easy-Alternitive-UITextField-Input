@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0CF51315D97E60001B68B1 /* ATFICompetitionPlacePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0CF51215D97E60001B68B1 /* ATFICompetitionPlacePickerController.m */; };
+		CA0CF51615D9AF4A001B68B1 /* ATFIImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0CF51515D9AF4A001B68B1 /* ATFIImagePickerController.m */; };
+		CA7669EE15D6F38A003D2F1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7669ED15D6F38A003D2F1F /* UIKit.framework */; };
+		CA7669F015D6F38A003D2F1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7669EF15D6F38A003D2F1F /* Foundation.framework */; };
+		CA7669F215D6F38A003D2F1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7669F115D6F38A003D2F1F /* CoreGraphics.framework */; };
+		CA7669F815D6F38A003D2F1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA7669F615D6F38A003D2F1F /* InfoPlist.strings */; };
+		CA7669FA15D6F38A003D2F1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7669F915D6F38A003D2F1F /* main.m */; };
+		CA7669FE15D6F38A003D2F1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7669FD15D6F38A003D2F1F /* AppDelegate.m */; };
+		CA766A0115D6F38A003D2F1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA766A0015D6F38A003D2F1F /* ViewController.m */; };
+		CA766A0415D6F38A003D2F1F /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA766A0215D6F38A003D2F1F /* ViewController_iPhone.xib */; };
+		CA766A0715D6F38A003D2F1F /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA766A0515D6F38A003D2F1F /* ViewController_iPad.xib */; };
+		CA766A1915D6F6F3003D2F1F /* ATFIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA766A1815D6F6F3003D2F1F /* ATFIViewController.m */; };
+		CA766A1C15D6FC28003D2F1F /* ATFIPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA766A1B15D6FC28003D2F1F /* ATFIPresentationViewController.m */; };
+		CA8131C815D835B700A23EEC /* ATFIDatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8131C715D835B700A23EEC /* ATFIDatePickerController.m */; };
+		CA8131CC15D8378200A23EEC /* ATFINumberPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8131CB15D8378100A23EEC /* ATFINumberPickerController.m */; };
+		CA8131CF15D886AC00A23EEC /* ATFIListPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8131CE15D886AC00A23EEC /* ATFIListPickerViewController.m */; };
+		CABCB89715DABFE800116459 /* UITabBarBookmarks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CABCB88B15DABFE800116459 /* UITabBarBookmarks.jpg */; };
+		CABCB89815DABFE800116459 /* UITabBarContacts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CABCB88C15DABFE800116459 /* UITabBarContacts.jpg */; };
+		CABCB89915DABFE800116459 /* UITabBarDownloads.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CABCB88D15DABFE800116459 /* UITabBarDownloads.jpg */; };
+		CABCB89A15DABFE800116459 /* UITabBarFavorites.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CABCB88E15DABFE800116459 /* UITabBarFavorites.jpg */; };
+		CABCB89B15DABFE800116459 /* UITabBarFeatured.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CABCB88F15DABFE800116459 /* UITabBarFeatured.jpg */; };
+		CABCB89C15DABFE800116459 /* UITabBarHistory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CABCB89015DABFE800116459 /* UITabBarHistory.jpg */; };
+		CABCB89D15DABFE800116459 /* UITabBarMore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CABCB89115DABFE800116459 /* UITabBarMore.jpg */; };
+		CABCB89E15DABFE800116459 /* UITabBarMostRecent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CABCB89215DABFE800116459 /* UITabBarMostRecent.jpg */; };
+		CABCB89F15DABFE800116459 /* UITabBarMostViewed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CABCB89315DABFE800116459 /* UITabBarMostViewed.jpg */; };
+		CABCB8A015DABFE800116459 /* UITabBarRecents.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CABCB89415DABFE800116459 /* UITabBarRecents.jpg */; };
+		CABCB8A115DABFE800116459 /* UITabBarSearch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CABCB89515DABFE800116459 /* UITabBarSearch.jpg */; };
+		CABCB8A215DABFE800116459 /* UITabBarTopRated.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CABCB89615DABFE800116459 /* UITabBarTopRated.jpg */; };
+		CABCB8A515DAC32400116459 /* ATFIInfinitePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABCB8A415DAC32400116459 /* ATFIInfinitePickerController.m */; };
+		CABCB8AC15DAC79800116459 /* ImagePickerCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CABCB8AB15DAC79800116459 /* ImagePickerCustomView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA0CF51115D97E60001B68B1 /* ATFICompetitionPlacePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATFICompetitionPlacePickerController.h; path = Classes/Pickers/ATFICompetitionPlacePickerController.h; sourceTree = "<group>"; };
+		CA0CF51215D97E60001B68B1 /* ATFICompetitionPlacePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATFICompetitionPlacePickerController.m; path = Classes/Pickers/ATFICompetitionPlacePickerController.m; sourceTree = "<group>"; };
+		CA0CF51415D9AF4A001B68B1 /* ATFIImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATFIImagePickerController.h; path = Classes/Pickers/ATFIImagePickerController.h; sourceTree = "<group>"; };
+		CA0CF51515D9AF4A001B68B1 /* ATFIImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATFIImagePickerController.m; path = Classes/Pickers/ATFIImagePickerController.m; sourceTree = "<group>"; };
+		CA7669E915D6F38A003D2F1F /* EasyAlternitiveUITextFieldInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyAlternitiveUITextFieldInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7669ED15D6F38A003D2F1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA7669EF15D6F38A003D2F1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA7669F115D6F38A003D2F1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA7669F515D6F38A003D2F1F /* EasyAlternitiveUITextFieldInput-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyAlternitiveUITextFieldInput-Info.plist"; sourceTree = "<group>"; };
+		CA7669F715D6F38A003D2F1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA7669F915D6F38A003D2F1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA7669FB15D6F38A003D2F1F /* EasyAlternitiveUITextFieldInput-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyAlternitiveUITextFieldInput-Prefix.pch"; sourceTree = "<group>"; };
+		CA7669FC15D6F38A003D2F1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA7669FD15D6F38A003D2F1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA7669FF15D6F38A003D2F1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA766A0015D6F38A003D2F1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA766A0315D6F38A003D2F1F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		CA766A0615D6F38A003D2F1F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		CA766A1715D6F6F3003D2F1F /* ATFIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATFIViewController.h; path = Classes/ATFIViewController.h; sourceTree = "<group>"; };
+		CA766A1815D6F6F3003D2F1F /* ATFIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATFIViewController.m; path = Classes/ATFIViewController.m; sourceTree = "<group>"; };
+		CA766A1A15D6FC28003D2F1F /* ATFIPresentationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATFIPresentationViewController.h; path = Classes/ATFIPresentationViewController.h; sourceTree = "<group>"; };
+		CA766A1B15D6FC28003D2F1F /* ATFIPresentationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATFIPresentationViewController.m; path = Classes/ATFIPresentationViewController.m; sourceTree = "<group>"; };
+		CA8131C615D835B700A23EEC /* ATFIDatePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATFIDatePickerController.h; path = Classes/Pickers/ATFIDatePickerController.h; sourceTree = "<group>"; };
+		CA8131C715D835B700A23EEC /* ATFIDatePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATFIDatePickerController.m; path = Classes/Pickers/ATFIDatePickerController.m; sourceTree = "<group>"; };
+		CA8131CA15D8378100A23EEC /* ATFINumberPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATFINumberPickerController.h; path = Classes/Pickers/ATFINumberPickerController.h; sourceTree = "<group>"; };
+		CA8131CB15D8378100A23EEC /* ATFINumberPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATFINumberPickerController.m; path = Classes/Pickers/ATFINumberPickerController.m; sourceTree = "<group>"; };
+		CA8131CD15D886AC00A23EEC /* ATFIListPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATFIListPickerViewController.h; path = Classes/Pickers/ATFIListPickerViewController.h; sourceTree = "<group>"; };
+		CA8131CE15D886AC00A23EEC /* ATFIListPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATFIListPickerViewController.m; path = Classes/Pickers/ATFIListPickerViewController.m; sourceTree = "<group>"; };
+		CABCB88B15DABFE800116459 /* UITabBarBookmarks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UITabBarBookmarks.jpg; path = Classes/Pickers/Images/UITabBarBookmarks.jpg; sourceTree = "<group>"; };
+		CABCB88C15DABFE800116459 /* UITabBarContacts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UITabBarContacts.jpg; path = Classes/Pickers/Images/UITabBarContacts.jpg; sourceTree = "<group>"; };
+		CABCB88D15DABFE800116459 /* UITabBarDownloads.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UITabBarDownloads.jpg; path = Classes/Pickers/Images/UITabBarDownloads.jpg; sourceTree = "<group>"; };
+		CABCB88E15DABFE800116459 /* UITabBarFavorites.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UITabBarFavorites.jpg; path = Classes/Pickers/Images/UITabBarFavorites.jpg; sourceTree = "<group>"; };
+		CABCB88F15DABFE800116459 /* UITabBarFeatured.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UITabBarFeatured.jpg; path = Classes/Pickers/Images/UITabBarFeatured.jpg; sourceTree = "<group>"; };
+		CABCB89015DABFE800116459 /* UITabBarHistory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UITabBarHistory.jpg; path = Classes/Pickers/Images/UITabBarHistory.jpg; sourceTree = "<group>"; };
+		CABCB89115DABFE800116459 /* UITabBarMore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UITabBarMore.jpg; path = Classes/Pickers/Images/UITabBarMore.jpg; sourceTree = "<group>"; };
+		CABCB89215DABFE800116459 /* UITabBarMostRecent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UITabBarMostRecent.jpg; path = Classes/Pickers/Images/UITabBarMostRecent.jpg; sourceTree = "<group>"; };
+		CABCB89315DABFE800116459 /* UITabBarMostViewed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UITabBarMostViewed.jpg; path = Classes/Pickers/Images/UITabBarMostViewed.jpg; sourceTree = "<group>"; };
+		CABCB89415DABFE800116459 /* UITabBarRecents.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UITabBarRecents.jpg; path = Classes/Pickers/Images/UITabBarRecents.jpg; sourceTree = "<group>"; };
+		CABCB89515DABFE800116459 /* UITabBarSearch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UITabBarSearch.jpg; path = Classes/Pickers/Images/UITabBarSearch.jpg; sourceTree = "<group>"; };
+		CABCB89615DABFE800116459 /* UITabBarTopRated.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UITabBarTopRated.jpg; path = Classes/Pickers/Images/UITabBarTopRated.jpg; sourceTree = "<group>"; };
+		CABCB8A315DAC32400116459 /* ATFIInfinitePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATFIInfinitePickerController.h; path = Classes/Pickers/ATFIInfinitePickerController.h; sourceTree = "<group>"; };
+		CABCB8A415DAC32400116459 /* ATFIInfinitePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATFIInfinitePickerController.m; path = Classes/Pickers/ATFIInfinitePickerController.m; sourceTree = "<group>"; };
+		CABCB8AB15DAC79800116459 /* ImagePickerCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImagePickerCustomView.xib; path = Classes/Pickers/ImagePickerCustomView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA7669E615D6F38A003D2F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7669EE15D6F38A003D2F1F /* UIKit.framework in Frameworks */,
+				CA7669F015D6F38A003D2F1F /* Foundation.framework in Frameworks */,
+				CA7669F215D6F38A003D2F1F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA7669DE15D6F38A003D2F1F = {
+			isa = PBXGroup;
+			children = (
+				CA7669F315D6F38A003D2F1F /* EasyAlternitiveUITextFieldInput */,
+				CA7669EC15D6F38A003D2F1F /* Frameworks */,
+				CA7669EA15D6F38A003D2F1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA7669EA15D6F38A003D2F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA7669E915D6F38A003D2F1F /* EasyAlternitiveUITextFieldInput.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA7669EC15D6F38A003D2F1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA7669ED15D6F38A003D2F1F /* UIKit.framework */,
+				CA7669EF15D6F38A003D2F1F /* Foundation.framework */,
+				CA7669F115D6F38A003D2F1F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA7669F315D6F38A003D2F1F /* EasyAlternitiveUITextFieldInput */ = {
+			isa = PBXGroup;
+			children = (
+				CA766A1515D6F61E003D2F1F /* Classes */,
+				CA7669FC15D6F38A003D2F1F /* AppDelegate.h */,
+				CA7669FD15D6F38A003D2F1F /* AppDelegate.m */,
+				CA7669FF15D6F38A003D2F1F /* ViewController.h */,
+				CA766A0015D6F38A003D2F1F /* ViewController.m */,
+				CA766A0215D6F38A003D2F1F /* ViewController_iPhone.xib */,
+				CA766A0515D6F38A003D2F1F /* ViewController_iPad.xib */,
+				CA7669F415D6F38A003D2F1F /* Supporting Files */,
+			);
+			path = EasyAlternitiveUITextFieldInput;
+			sourceTree = "<group>";
+		};
+		CA7669F415D6F38A003D2F1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA7669F515D6F38A003D2F1F /* EasyAlternitiveUITextFieldInput-Info.plist */,
+				CA7669F615D6F38A003D2F1F /* InfoPlist.strings */,
+				CA7669F915D6F38A003D2F1F /* main.m */,
+				CA7669FB15D6F38A003D2F1F /* EasyAlternitiveUITextFieldInput-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA766A1515D6F61E003D2F1F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CA766A1715D6F6F3003D2F1F /* ATFIViewController.h */,
+				CA766A1815D6F6F3003D2F1F /* ATFIViewController.m */,
+				CA766A1A15D6FC28003D2F1F /* ATFIPresentationViewController.h */,
+				CA766A1B15D6FC28003D2F1F /* ATFIPresentationViewController.m */,
+				CA8131C915D835BE00A23EEC /* Pickers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		CA8131C915D835BE00A23EEC /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				CA8131C615D835B700A23EEC /* ATFIDatePickerController.h */,
+				CA8131C715D835B700A23EEC /* ATFIDatePickerController.m */,
+				CA8131CA15D8378100A23EEC /* ATFINumberPickerController.h */,
+				CA8131CB15D8378100A23EEC /* ATFINumberPickerController.m */,
+				CA8131CD15D886AC00A23EEC /* ATFIListPickerViewController.h */,
+				CA8131CE15D886AC00A23EEC /* ATFIListPickerViewController.m */,
+				CA0CF51115D97E60001B68B1 /* ATFICompetitionPlacePickerController.h */,
+				CA0CF51215D97E60001B68B1 /* ATFICompetitionPlacePickerController.m */,
+				CA0CF51415D9AF4A001B68B1 /* ATFIImagePickerController.h */,
+				CA0CF51515D9AF4A001B68B1 /* ATFIImagePickerController.m */,
+				CABCB8AB15DAC79800116459 /* ImagePickerCustomView.xib */,
+				CABCB88A15DABFD500116459 /* Images */,
+				CABCB8A315DAC32400116459 /* ATFIInfinitePickerController.h */,
+				CABCB8A415DAC32400116459 /* ATFIInfinitePickerController.m */,
+			);
+			name = Pickers;
+			sourceTree = "<group>";
+		};
+		CABCB88A15DABFD500116459 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CABCB88B15DABFE800116459 /* UITabBarBookmarks.jpg */,
+				CABCB88C15DABFE800116459 /* UITabBarContacts.jpg */,
+				CABCB88D15DABFE800116459 /* UITabBarDownloads.jpg */,
+				CABCB88E15DABFE800116459 /* UITabBarFavorites.jpg */,
+				CABCB88F15DABFE800116459 /* UITabBarFeatured.jpg */,
+				CABCB89015DABFE800116459 /* UITabBarHistory.jpg */,
+				CABCB89115DABFE800116459 /* UITabBarMore.jpg */,
+				CABCB89215DABFE800116459 /* UITabBarMostRecent.jpg */,
+				CABCB89315DABFE800116459 /* UITabBarMostViewed.jpg */,
+				CABCB89415DABFE800116459 /* UITabBarRecents.jpg */,
+				CABCB89515DABFE800116459 /* UITabBarSearch.jpg */,
+				CABCB89615DABFE800116459 /* UITabBarTopRated.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA7669E815D6F38A003D2F1F /* EasyAlternitiveUITextFieldInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA766A0A15D6F38A003D2F1F /* Build configuration list for PBXNativeTarget "EasyAlternitiveUITextFieldInput" */;
+			buildPhases = (
+				CA7669E515D6F38A003D2F1F /* Sources */,
+				CA7669E615D6F38A003D2F1F /* Frameworks */,
+				CA7669E715D6F38A003D2F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyAlternitiveUITextFieldInput;
+			productName = EasyAlternitiveUITextFieldInput;
+			productReference = CA7669E915D6F38A003D2F1F /* EasyAlternitiveUITextFieldInput.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA7669E015D6F38A003D2F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Brandon McQuilkin";
+			};
+			buildConfigurationList = CA7669E315D6F38A003D2F1F /* Build configuration list for PBXProject "EasyAlternitiveUITextFieldInput" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA7669DE15D6F38A003D2F1F;
+			productRefGroup = CA7669EA15D6F38A003D2F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA7669E815D6F38A003D2F1F /* EasyAlternitiveUITextFieldInput */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA7669E715D6F38A003D2F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7669F815D6F38A003D2F1F /* InfoPlist.strings in Resources */,
+				CA766A0415D6F38A003D2F1F /* ViewController_iPhone.xib in Resources */,
+				CA766A0715D6F38A003D2F1F /* ViewController_iPad.xib in Resources */,
+				CABCB89715DABFE800116459 /* UITabBarBookmarks.jpg in Resources */,
+				CABCB89815DABFE800116459 /* UITabBarContacts.jpg in Resources */,
+				CABCB89915DABFE800116459 /* UITabBarDownloads.jpg in Resources */,
+				CABCB89A15DABFE800116459 /* UITabBarFavorites.jpg in Resources */,
+				CABCB89B15DABFE800116459 /* UITabBarFeatured.jpg in Resources */,
+				CABCB89C15DABFE800116459 /* UITabBarHistory.jpg in Resources */,
+				CABCB89D15DABFE800116459 /* UITabBarMore.jpg in Resources */,
+				CABCB89E15DABFE800116459 /* UITabBarMostRecent.jpg in Resources */,
+				CABCB89F15DABFE800116459 /* UITabBarMostViewed.jpg in Resources */,
+				CABCB8A015DABFE800116459 /* UITabBarRecents.jpg in Resources */,
+				CABCB8A115DABFE800116459 /* UITabBarSearch.jpg in Resources */,
+				CABCB8A215DABFE800116459 /* UITabBarTopRated.jpg in Resources */,
+				CABCB8AC15DAC79800116459 /* ImagePickerCustomView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA7669E515D6F38A003D2F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7669FA15D6F38A003D2F1F /* main.m in Sources */,
+				CA7669FE15D6F38A003D2F1F /* AppDelegate.m in Sources */,
+				CA766A0115D6F38A003D2F1F /* ViewController.m in Sources */,
+				CA766A1915D6F6F3003D2F1F /* ATFIViewController.m in Sources */,
+				CA766A1C15D6FC28003D2F1F /* ATFIPresentationViewController.m in Sources */,
+				CA8131C815D835B700A23EEC /* ATFIDatePickerController.m in Sources */,
+				CA8131CC15D8378200A23EEC /* ATFINumberPickerController.m in Sources */,
+				CA8131CF15D886AC00A23EEC /* ATFIListPickerViewController.m in Sources */,
+				CA0CF51315D97E60001B68B1 /* ATFICompetitionPlacePickerController.m in Sources */,
+				CA0CF51615D9AF4A001B68B1 /* ATFIImagePickerController.m in Sources */,
+				CABCB8A515DAC32400116459 /* ATFIInfinitePickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA7669F615D6F38A003D2F1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA7669F715D6F38A003D2F1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA766A0215D6F38A003D2F1F /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA766A0315D6F38A003D2F1F /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CA766A0515D6F38A003D2F1F /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA766A0615D6F38A003D2F1F /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA766A0815D6F38A003D2F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA766A0915D6F38A003D2F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA766A0B15D6F38A003D2F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyAlternitiveUITextFieldInput/EasyAlternitiveUITextFieldInput-Prefix.pch";
+				INFOPLIST_FILE = "EasyAlternitiveUITextFieldInput/EasyAlternitiveUITextFieldInput-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA766A0C15D6F38A003D2F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyAlternitiveUITextFieldInput/EasyAlternitiveUITextFieldInput-Prefix.pch";
+				INFOPLIST_FILE = "EasyAlternitiveUITextFieldInput/EasyAlternitiveUITextFieldInput-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA7669E315D6F38A003D2F1F /* Build configuration list for PBXProject "EasyAlternitiveUITextFieldInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA766A0815D6F38A003D2F1F /* Debug */,
+				CA766A0915D6F38A003D2F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA766A0A15D6F38A003D2F1F /* Build configuration list for PBXNativeTarget "EasyAlternitiveUITextFieldInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA766A0B15D6F38A003D2F1F /* Debug */,
+				CA766A0C15D6F38A003D2F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA7669E015D6F38A003D2F1F /* Project object */;
+}
