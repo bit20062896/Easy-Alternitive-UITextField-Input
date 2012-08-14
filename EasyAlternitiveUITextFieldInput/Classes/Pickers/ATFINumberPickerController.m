@@ -26,7 +26,6 @@
             [componentLimits setValue:[NSNumber numberWithInt:0] forKey:[NSString stringWithFormat:@"Component%iLowerLimit", i]];
             [componentLimits setValue:[NSNumber numberWithInt:9] forKey:[NSString stringWithFormat:@"Component%iUpperLimit", i]];
         }
-        [self setLowerLimit:[NSNumber numberWithInt:-9] andUpperLimit:nil forComponentIndex:[NSNumber numberWithInt:0]];
         self.componentsWithDecimals = [[NSMutableSet alloc] init];
         self.pickerView = [[UIPickerView alloc] init];
         self.pickerView.delegate = self;

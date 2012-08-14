@@ -68,6 +68,7 @@
         return YES;
     } else if (textField == numberPicker) { //Number Picker
         ATFINumberPickerController *controller = [[ATFINumberPickerController alloc] initWithNumberOfDigits:[NSNumber numberWithInt:4]];
+        [controller setLowerLimit:[NSNumber numberWithInt:-9] andUpperLimit:nil forComponentIndex:[NSNumber numberWithInt:0]];
         [controller addDecimalToComponentIndex:[NSNumber numberWithInt:2]];
         [controller setLowerLimit:[NSNumber numberWithInt:5] andUpperLimit:nil forComponentIndex:[NSNumber numberWithInt:3]];
         controller.leadingSymbol = @"$";
@@ -75,6 +76,7 @@
         return NO;
     } else if (textField == numberPickerWithToolbar) {
         ATFINumberPickerController *controller = [[ATFINumberPickerController alloc] initWithNumberOfDigits:[NSNumber numberWithInt:4]];
+        [controller setLowerLimit:[NSNumber numberWithInt:-9] andUpperLimit:nil forComponentIndex:[NSNumber numberWithInt:0]];
         [controller addDecimalToComponentIndex:[NSNumber numberWithInt:2]];
         [controller setLowerLimit:[NSNumber numberWithInt:5] andUpperLimit:nil forComponentIndex:[NSNumber numberWithInt:3]];
         controller.leadingSymbol = @"$";
