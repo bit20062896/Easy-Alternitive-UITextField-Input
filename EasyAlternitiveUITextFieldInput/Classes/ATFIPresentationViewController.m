@@ -56,8 +56,8 @@
     [UIView setAnimationDuration:0.3];
     
     //Bring in content
-    self.picker.view.frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height - self.picker.view.frame.size.height, self.picker.view.frame.size.width, self.picker.view.frame.size.height);
-    self.inputToolbar.frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height - self.picker.view.frame.size.height - self.inputToolbar.frame.size.height, self.inputToolbar.frame.size.width, self.inputToolbar.frame.size.height);
+    self.picker.view.frame = CGRectMake(0, self.theViewController.view.frame.size.height - self.picker.view.frame.size.height, self.picker.view.frame.size.width, self.picker.view.frame.size.height);
+    self.inputToolbar.frame = CGRectMake(0, self.theViewController.view.frame.size.height - self.picker.view.frame.size.height - self.inputToolbar.frame.size.height, self.inputToolbar.frame.size.width, self.inputToolbar.frame.size.height);
     self.coverButton.alpha = 0.5;
     
     //Move ScrollView
