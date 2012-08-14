@@ -25,6 +25,9 @@
         self.pickerView.dataSource = self;
         self.pickerView.showsSelectionIndicator = YES;
         self.view.frame = self.pickerView.frame;
+        if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+            self.pickerView.frame = CGRectMake(0, 788, 768, 216);
+        }
         self.view = self.pickerView;
         self.lowestPlace = aPlace;
         if (self.lowestPlace == nil) {

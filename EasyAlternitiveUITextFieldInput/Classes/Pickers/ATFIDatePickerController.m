@@ -23,6 +23,9 @@
         self.datePicker.datePickerMode = UIDatePickerModeDate;
         self.datePicker.date = [NSDate date];
         [self.datePicker addTarget:self action:@selector(dateChanged:) forControlEvents:UIControlEventValueChanged];
+        if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+            self.datePicker.frame = CGRectMake(0, 0, 768, 216);
+        }
         self.view.frame = self.datePicker.frame;
         self.view = self.datePicker;
     }

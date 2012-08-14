@@ -31,6 +31,9 @@
         self.pickerView.delegate = self;
         self.pickerView.dataSource = self;
         self.pickerView.showsSelectionIndicator = YES;
+        if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+            self.pickerView.frame = CGRectMake(0, 788, 768, 216);
+        }
         self.view.frame = self.pickerView.frame;
         self.view = self.pickerView;
         self.leadingSymbol = @"";
